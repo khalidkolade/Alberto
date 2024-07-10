@@ -1,0 +1,234 @@
+ <!--uniqueness-->
+        <section class="bg-gray-100 py-12">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center text-gray-800 mb-4">Some Features that Make Us Unique</h2>
+                <p class="text-center text-gray-600 mb-8">Discover the incredible features that set us apart from the competition and make our products truly unique.</p>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white p-6 rounded-lg shadow-lg text-center transform transition duration-500 feature-box">
+                        <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/icons/award.svg" class="mx-auto mb-4 w-12 h-12" alt="Quality Icon">
+                        <h3 class="text-xl font-semibold mb-2">Exceptional Quality</h3>
+                        <p class="text-gray-600">Our products are made from the finest materials to ensure top-notch quality and durability.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-lg text-center transform transition duration-500 feature-box">
+                        <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/icons/gem.svg" class="mx-auto  mb-4 w-12 h-12" alt="Craftsmanship Icon">
+                        <h3 class="text-xl font-semibold mb-2">Exquisite Craftsmanship</h3>
+                        <p class="text-gray-600">Each item is meticulously crafted by skilled artisans, ensuring a unique and beautiful finish.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-lg text-center transform transition duration-500 feature-box">
+                        <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/icons/layers.svg" class="mx-auto mb-4 w-12 h-12" alt="Innovation Icon">
+                        <h3 class="text-xl font-semibold mb-2">Innovative Design</h3>
+                        <p class="text-gray-600">We incorporate the latest design trends and technologies to bring you cutting-edge products.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-lg text-center transform transition duration-500 feature-box">
+                        <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/icons/diamond.svg" class="mx-auto mb-4 w-12 h-12" alt="Luxury Icon">
+                        <h3 class="text-xl font-semibold mb-2">Luxury Materials</h3>
+                        <p class="text-gray-600">Our commitment to using only the finest luxury materials ensures that our products are of the highest quality.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-lg text-center transform transition duration-500 feature-box">
+                        <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/icons/hourglass-split.svg" class="mx-auto mb-4 w-12 h-12" alt="Aesthetics Icon">
+                        <h3 class="text-xl font-semibold mb-2">Timeless Aesthetics</h3>
+                        <p class="text-gray-600">Our designs are timeless, blending classic beauty with modern elegance to create pieces that never go out of style.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-lg text-center transform transition duration-500 feature-box">
+                        <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/icons/speedometer.svg" class="mx-auto mb-4 w-12 h-12" alt="Performance Icon">
+                        <h3 class="text-xl font-semibold mb-2">High Performance</h3>
+                        <p class="text-gray-600">Engineered for superior performance, our products deliver exceptional functionality and reliability.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--testimonial-->
+        <body class="bg-gray-900 text-white">
+            <section class="py-12 px-6">
+                <div class="text-center mb-10">
+                    <h2 class="text-3xl font-bold">What thousands of happy customers are saying about us</h2>
+                    <div class="mt-4">
+                        <div class="flex items-center justify-center">
+                            <img src="https://img.icons8.com/material-sharp/24/26e07f/star.png" alt="TrustScore Icon">
+                            <p class="ml-2">TrustScore: <span class="font-semibold">"Excellent" with 4.8/5 stars</span></p>
+                        </div>
+                        <p class="mt-2">159,160 reviews from around the globe</p>
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                    <div class="flex overflow-hidden space-x-4">
+                        <div class="bg-white text-gray-900 rounded-lg p-6 w-80">
+                            <div class="flex justify-between items-center">
+                                <div class="flex items-center space-x-1">
+                                    <img src="https://img.icons8.com/material-sharp/24/26e07f/star.png" alt="Star">
+                                    <img src="https://img.icons8.com/material-sharp/24/26e07f/star.png" alt="Star">
+                                    <img src="https://img.icons8.com/material-sharp/24/26e07f/star.png" alt="Star">
+                                    <img src="https://img.icons8.com/material-sharp/24/26e07f/star.png" alt="Star">
+                                    <img src="https://img.icons8.com/material-sharp/24/26e07f/star.png" alt="Star">
+                                </div>
+                                <span>This week</span>
+                            </div>
+                            <p class="mt-4 italic">"Alberto Watch is a reliable, trustable, and professional site where the vendors are strictly reviewed to provide great customer experience at all time."</p>
+                            <div class="flex items-center mt-4">
+                                <div class="w-10 h-10 rounded-full bg-gray-300 flex items-center justify-center">
+                                    <span class="text-lg font-bold text-gray-900">B</span>
+                                </div>
+                                <div class="ml-3">
+                                    <p class="font-semibold">Bh-CINDIGO</p>
+                                    <p class="text-sm text-gray-600">Nigeria</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-white text-gray-900 rounded-lg p-6 w-80">
+                            <div class="flex justify-between items-center">
+                                <div class="flex items-center space-x-1">
+                                    <img src="https://img.icons8.com/material-sharp/24/26e07f/star.png" alt="Star">
+                                    <img src="https://img.icons8.com/material-sharp/24/26e07f/star.png" alt="Star">
+                                    <img src="https://img.icons8.com/material-sharp/24/26e07f/star.png" alt="Star">
+                                    <img src="https://img.icons8.com/material-sharp/24/26e07f/star.png" alt="Star">
+                                    <img src="https://img.icons8.com/material-sharp/24/26e07f/star.png" alt="Star">
+                                </div>
+                                <span>2023</span>
+                            </div>
+                            <p class="mt-4 italic">"Alberto Watch is a reliable, trustable, and professional site where the vendors are strictly reviewed to provide great customer experience at all time."</p>
+                            <div class="flex items-center mt-4">
+                                <div class="w-10 h-10 rounded-full bg-gray-300 flex items-center justify-center">
+                                    <span class="text-lg font-bold text-gray-900">K</span>
+                                </div>
+                                <div class="ml-3">
+                                    <p class="font-semibold">KayKay</p>
+                                    <p class="text-sm text-gray-600">United States of America</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-white text-gray-900 rounded-lg p-6 w-80">
+                            <div class="flex justify-between items-center">
+                                <div class="flex items-center space-x-1">
+                                    <img src="https://img.icons8.com/material-sharp/24/26e07f/star.png" alt="Star">
+                                    <img src="https://img.icons8.com/material-sharp/24/26e07f/star.png" alt="Star">
+                                    <img src="https://img.icons8.com/material-sharp/24/26e07f/star.png" alt="Star">
+                                    <img src="https://img.icons8.com/material-sharp/24/26e07f/star.png" alt="Star">
+                                    <img src="https://img.icons8.com/material-sharp/24/26e07f/star.png" alt="Star">
+                                </div>
+                                <span>This Month</span>
+                            </div>
+                            <p class="mt-4 italic">"Bought two watches recently and great experience with Alberto Watc and approved dealers in their platform. I feel save buying thru Chrono24 luxury watches."</p>
+                            <div class="flex items-center mt-4">
+                                <div class="w-10 h-10 rounded-full bg-gray-300 flex items-center justify-center">
+                                    <span class="text-lg font-bold text-gray-900">L</span>
+                                </div>
+                                <div class="ml-3">
+                                    <p class="font-semibold">Lamine</p>
+                                    <p class="text-sm text-gray-600">Spain</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                  
+                </div>
+            </section>
+  
+
+
+
+
+
+  <body class="min-h-screen bg-gray-100 p-8">
+    <div class="w-full bg-white shadow-lg rounded-lg overflow-hidden">
+        <div class="bg-black text-white text-center p-4">
+            <h1 class="text-3xl font-bold">Luxury Watches</h1>
+        </div>
+        <div class="p-6">
+            <div class="text-center">
+                <h2 class="text-2xl font-bold text-gray-700">Classic Collection</h2>
+                <p class="text-gray-600 mt-2">Experience the timeless elegance of our classic watch collection.</p>
+            </div>
+            <div class="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-gray-700 p-4 rounded-lg text-white card relative">
+                    <img src="men-removebg-preview.png" alt="Watch" class="w-full h-48 object-cover rounded-lg">
+                    <h3 class="text-lg font-bold mt-2">Men Watches</h3>
+                    <p class="text-[#D4AF37]">$250.00</p>
+                    <button class="details-button bg-[#D4AF37] text-black px-4 py-2 rounded-lg shadow mt-2">View Details</button>
+                </div>
+                <div class="bg-gray-700 p-4 rounded-lg text-white card relative">
+                    <img src="pre_owned-removebg-preview.png" alt="Watch" class="w-full h-48 object-cover rounded-lg">
+                    <h3 class="text-lg font-bold mt-2">Pre-Owned Watches</h3>
+                    <p class="text-[#D4AF37]">$300.00</p>
+                    <button class="details-button bg-[#D4AF37] text-black px-4 py-2 rounded-lg shadow mt-2">View Details</button>
+                </div>
+                <div class="bg-gray-700 p-4 rounded-lg text-white card relative">
+                    <img src="pocket-removebg-preview.png" alt="Watch" class="w-full h-48 object-cover rounded-lg">
+                    <h3 class="text-lg font-bold mt-2">Pocket Watches</h3>
+                    <p class="text-[#D4AF37]">$450.00</p>
+                    <button class="details-button bg-[#D4AF37] text-black px-4 py-2 rounded-lg shadow mt-2">View Details</button>
+                </div>
+                <div class="bg-gray-700 p-4 rounded-lg text-white card relative">
+                    <img src="pocket-removebg-preview.png" alt="Watch" class="w-full h-48 object-cover rounded-lg">
+                    <h3 class="text-lg font-bold mt-2">Pocket Watches</h3>
+                    <p class="text-[#D4AF37]">$450.00</p>
+                    <button class="details-button bg-[#D4AF37] text-black px-4 py-2 rounded-lg shadow mt-2">View Details</button>
+                </div>
+                <div class="bg-gray-700 p-4 rounded-lg text-white card relative">
+                    <img src="pocket-removebg-preview.png" alt="Watch" class="w-full h-48 object-cover rounded-lg">
+                    <h3 class="text-lg font-bold mt-2">Pocket Watches</h3>
+                    <p class="text-[#D4AF37]">$450.00</p>
+                    <button class="details-button bg-[#D4AF37] text-black px-4 py-2 rounded-lg shadow mt-2">View Details</button>
+                </div>
+                <div class="bg-gray-700 p-4 rounded-lg text-white card relative">
+                    <img src="pocket-removebg-preview.png" alt="Watch" class="w-full h-48 object-cover rounded-lg">
+                    <h3 class="text-lg font-bold mt-2">Pocket Watches</h3>
+                    <p class="text-[#D4AF37]">$450.00</p>
+                    <button class="details-button bg-[#D4AF37] text-black px-4 py-2 rounded-lg shadow mt-2">View Details</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center hidden">
+        <div class="bg-gray-800 text-white rounded-lg shadow-lg p-4 w-80">
+            <div class="flex justify-between items-center mb-4">
+                <h2 class="text-lg font-semibold">Watch Details</h2>
+                <span id="close-popup" class="cursor-pointer">&times;</span>
+            </div>
+            <div class="flex items-center mb-4">
+                <img id="popup-img" src="" alt="Watch" class="w-20 h-20 object-cover rounded-lg mr-4">
+                <div>
+                    <div id="popup-title" class="font-semibold text-lg">Watch Title</div>
+                    <div id="popup-price" class="text-[#D4AF37]">$0.00</div>
+                </div>
+            </div>
+            <div id="popup-description" class="text-gray-400 text-sm mb-4">
+                Discover the exceptional features and specifications of our latest watch. Crafted to perfection, this timepiece blends cutting-edge technology with timeless design, making it a must-have addition to your collection.
+            </div>
+            <button class="bg-black hover:bg-green-600 text-white font-semibold py-2 px-4 rounded w-full">Add to Wishlist</button>
+        </div>
+    </div>
+      <!--about section -->
+      <section class="bg-gray-100 text-gray-800">
+        <nav class="bg-gray-100 text-gray-800 py-4">
+            <div class="container mx-auto px-6">
+                <h1 class="text-4xl font-bold text-center text-black">About Us</h1>
+                <h3 class="text-lg text-center text-2xl mt-2">Crafting Timeless Pieces with Passion and Precision</h3>
+            </div>
+        </nav>
+        <section class="about-section">
+            <div class="container mx-auto px-6">
+                <div class="flex flex-wrap items-center">
+                    <div class="w-full md:w-1/2 order-last md:order-first p-4">
+                        <div class="image-container p-2">
+                            <img src="bg5.jpg" alt="About Us Image" class="w-full h-96 object-cover rounded-lg shadow-lg">
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/2 p-4 flex items-center">
+                        <div class="w-full">
+                            <h2 class="text-4xl font-bold mb-6 highlight">About Us</h2>
+                            <p class="text-lg mb-4">Founded in 2020, Alberto Watch Company has been crafting timeless pieces that combine tradition and innovation. Our dedication to craftsmanship and quality ensures each watch is a work of art, designed to last generations.</p>
+
+                            <p class="text-lg mb-4">Each of our watches is meticulously crafted using the finest materials and the latest technology. From classic designs to modern innovations, we offer a wide range of styles to suit every taste.</p>
+                            <p class="mb-4">Phone: +234 2057 5004</p>
+                            <p class="mb-4">Email: Bh-CINDIGO@gmail.com</p>
+                            <p class="mb-4">Address: 123 Jojuu Street, Ogun, Nigeria</p>
+                            <button class="bg-yellow-600 hover:bg-gray-700 text-white font-semibold py-2 px-4 rounded">For further inquiries</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+</body>

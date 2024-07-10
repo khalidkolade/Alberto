@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="landing.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .scrolling-ticker {
+            overflow: hidden;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #1f2937;
+            color: white;
+            padding: 10px 0;
+        }
+
+        .ticker-content {
+            display: inline-block;
+            white-space: nowrap;
+            animation: ticker 15s linear infinite;
+        }
+
+        @keyframes ticker {
+            0% {
+                transform: translateX(100%);
+            }
+
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        .footer-content {
+            margin-bottom: 60px;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-900">
+    <!-- Contact Section -->
+    <section id="contact" class="min-h-screen flex flex-col items-center justify-center py-8">
+        <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-lg mx-4 mb-8">
+            <h2 class="text-2xl font-bold mb-6 text-gray-900">Log in</h2>
+            <form>
+                <div class="mb-4">
+                    <label for="email" class="block text-sm font-medium text-gray-700">Email address</label>
+                    <input type="email" id="email" name="email"
+                        class="mt-1 block w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+                        required>
+                </div>
+                <div class="mb-4 relative">
+                    <label for="password" class="block text-sm font-medium text-gray-700">Password</label>
+                    <input type="password" id="password" name="password"
+                        class="mt-1 block w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+                        required>
+                    <img src="https://icons.getbootstrap.com/assets/icons/eye.svg" alt="show"
+                        class="absolute top-1/2 right-3 transform -translate-y-1/2 h-5 w-5 text-gray-500 cursor-pointer">
+                </div>
+                <div class="flex items-center justify-between mb-6">
+                    <div class="flex items-center">
+                        <input id="stay-logged-in" name="stay-logged-in" type="checkbox"
+                            class="h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded">
+                        <label for="stay-logged-in" class="ml-2 block text-sm text-gray-900">Stay logged in</label>
+                    </div>
+                    <div>
+                        <a href="#" class="text-sm text-gray-900 hover:text-indigo-500">Forgot your password?</a>
+                    </div>
+                </div>
+                <button type="submit"
+                    class="w-full py-3 bg-gray-900 text-white rounded-md hover:bg-blue-900 transition duration-150">Log
+                    in</button>
+            </form>
+            <div class="mt-6 flex items-center justify-center">
+                <div class="w-full border-t border-gray-300"></div>
+                <span class="px-2 text-sm text-gray-500">OR</span>
+                <div class="w-full border-t border-gray-300"></div>
+            </div>
+            <div class="mt-6">
+                <button
+                    class="w-full flex items-center justify-center py-3 mb-4 border border-gray-300 rounded-md hover:bg-gray-50 transition duration-150">
+                    <img src="https://icons.getbootstrap.com/assets/icons/google.svg" alt="Google" class="h-5 w-5 mr-2">
+                    Continue with Google
+                </button>
+                <button
+                    class="w-full flex items-center justify-center py-3 border border-gray-300 rounded-md hover:bg-gray-50 transition duration-150">
+                    <img src="https://icons.getbootstrap.com/assets/icons/apple.svg" alt="Apple" class="h-5 w-5 mr-2">
+                    Continue with Apple
+                </button>
+            </div>
+            <div class="mt-6 text-center">
+                <p class="text-sm text-gray-900">New to Alberto? <a href="#"
+                        class="text-gray-900 hover:text-indigo-500">Create a free account now</a></p>
+            </div>
+        </div>
+
+        <!-- Find Us Section -->
+        <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-4xl mx-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <h2 class="text-2xl font-bold mb-6 text-gray-900">Find Us</h2>
+                    <div class="mb-4">
+                        <label for="search-location" class="block text-sm font-medium text-gray-700">Search Location</label>
+                        <input type="text" id="search-location" name="search-location"
+                            class="mt-1 block w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+                            required>
+                        <button type="button" onclick="searchLocation()"
+                            class="mt-3 w-full py-3 bg-gray-900 text-white rounded-md hover:bg-blue-900 transition duration-150">Search
+                            Location</button>
+                    </div>
+                    <div class="mb-4">
+                        <label for="search-zipcode" class="block text-sm font-medium text-gray-700">Search by Zip Code</label>
+                        <input type="text" id="search-zipcode" name="search-zipcode"
+                            class="mt-1 block w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+                            required>
+                        <button type="button" onclick="searchLocation()"
+                            class="mt-3 w-full py-3 bg-gray-900 text-white rounded-md hover:bg-blue-900 transition duration-150">Search
+                            Zip Code</button>
+                    </div>
+                </div>
+                <div class="relative h-80">
+                    <iframe class="absolute inset-0 w-full h-full rounded-lg"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.27990911464!2d-74.25986783725746!3d40.69767006370861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5f22aa33b%3A0xacf9b2b2e92b7ab4!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1621368982107!5m2!1sen!2sin"
+                        frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <div class="bg-gray-900 text-white py-8 footer-content">
+        <div class="container mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+            <div>
+                <h3 class="text-lg font-semibold mb-4">Buy on Alberto</h3>
+                <ul>
+                    <li class="mb-2">Alberto Buyer Protection</li>
+                    <li class="mb-2">Payment via an escrow account</li>
+                    <li class="mb-2">Commitment to Authenticity</li>
+                    <li class="mb-2">Easy Returns</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-lg font-semibold mb-4">Sell on Alberto</h3>
+                <ul>
+                    <li class="mb-2">Selling Watches as a Private Seller</li>
+                    <li class="mb-2">Selling Watches Commercially</li>
+                    <li class="mb-2">Free Appraisal</li>
+                    <li class="mb-2">Advice for private sellers</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-lg font-semibold mb-4">About Alberto</h3>
+                <ul>
+                    <li class="mb-2">About us</li>
+                    <li class="mb-2">Jobs</li>
+                    <li class="mb-2">Press</li>
+                    <li class="mb-2">Legal Details</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-lg font-semibold mb-4">Personalized support</h3>
+                <p class="mb-2"><img src="https://icons.getbootstrap.com/assets/icons/telephone.svg" alt="Phone"
+                        class="inline w-4 h-4 mr-2 "> +90 20 57 5004</p>
+                <ul>
+                    <li class="mb-2">Frequently Asked Questions</li>
+                    <li class="mb-2">Contact</li>
+                    <li class="mb-2">Accessibility</li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="text-xl font-semibold mb-4">Chrono24 Apps</h2>
+                <div class="flex items-center space-x-4">
+                    <div class="flex justify-center mb-4">
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=Example" alt="QR Code"
+                            class="w-32 h-32">
+                    </div>
+                    <div class="flex flex-col space-y-4">
+                        <a href="https://www.apple.com/app-store/" target="_blank">
+                            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                                alt="App Store" class="h-12">
+                        </a>
+                        <a href="https://play.google.com/store" target="_blank">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                                alt="Google Play" class="h-12">
+                        </a>
+                    </div>
+                </div>
+                <h3 class="text-lg font-semibold mb-4">Payment Methods</h3>
+                <div class="flex space-x-2">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Visa_Logo.png" alt="Visa"
+                        class="h-10">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" alt="MasterCard"
+                        class="h-10">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/American_Express_logo.svg"
+                        alt="American Express" class="h-10">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" alt="PayPal" class="h-10">
+                </div>
+            </div>
+        </div>
+        <div class="container mx-auto px-4 mt-8 border-t border-gray-700 pt-4 text-sm text-gray-400">
+            <div class="flex flex-col sm:flex-row justify-between">
+                <div class="mb-2 sm:mb-0">
+                    <a href="#" class="mr-4 hover:underline">Data Privacy Policy</a>
+                    <a href="#" class="mr-4 hover:underline">Manage Cookies</a>
+                    <a href="#" class="mr-4 hover:underline">Terms & Conditions</a>
+                    <a href="#" class="hover:underline">Sitemap</a>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-white"><img src="https://icons.getbootstrap.com/assets/icons/facebook.svg"
+                            alt="Facebook" class="w-5 h-5"></a>
+                    <a href="#" class="hover:text-white"><img src="https://icons.getbootstrap.com/assets/icons/twitter.svg"
+                            alt="Twitter" class="w-5 h-5"></a>
+                    <a href="#" class="hover:text-white"><img src="https://icons.getbootstrap.com/assets/icons/youtube.svg"
+                            alt="YouTube" class="w-5 h-5"></a>
+                    <a href="#" class="hover:text-white"><img src="https://icons.getbootstrap.com/assets/icons/pinterest.svg"
+                            alt="Pinterest" class="w-5 h-5"></a>
+                    <a href="#" class="hover:text-white"><img src="https://icons.getbootstrap.com/assets/icons/instagram.svg"
+                            alt="Instagram" class="w-5 h-5"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scrolling-ticker">
+        <div class="ticker-content">
+            <span class="mx-4">Welcome to Alberto!</span>
+            <span class="mx-4">Check out our latest collection!</span>
+            <span class="mx-4">Exclusive deals available now!</span>
+            <span class="mx-4">Contact us for more information!</span>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+</body>
+
+</html>
